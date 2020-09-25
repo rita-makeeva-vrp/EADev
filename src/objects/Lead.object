@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Broker_information__c</fullName>
+        <description>Add information about Broker (name, email, etc.)</description>
+        <externalId>false</externalId>
+        <label>Broker information</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Broker_s_Lead__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Broker&apos;s Lead</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <validationRules>
+        <fullName>User_must_add_Broker_information</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( Broker_s_Lead__c  == true,  ISBLANK(Broker_information__c) )</errorConditionFormula>
+        <errorDisplayField>Broker_information__c</errorDisplayField>
+        <errorMessage>Please, add Broker information</errorMessage>
+    </validationRules>
+</CustomObject>
