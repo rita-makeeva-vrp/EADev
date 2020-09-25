@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_lead_record_created_by_EAL_group_with_EAL_members</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share lead record created by EAL group with EAL members</label>
+        <sharedTo>
+            <group>EAL_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EAL_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_lead_record_created_by_EAL_group_with_EAU_group</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share lead record created by EAL group with EAU group</label>
+        <sharedTo>
+            <group>EAU_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EAL_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_lead_record_created_by_EAU_group_with_EAL_group</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share lead record created by EAU group with EAL group</label>
+        <sharedTo>
+            <group>EAL_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EAU_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_lead_record_created_by_EAU_group_with_EAU_members</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share lead record created by EAU group with EAU members</label>
+        <sharedTo>
+            <group>EAU_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>EAU_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>
