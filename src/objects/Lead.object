@@ -17,6 +17,22 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Exoteric_Work__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Exoteric Work</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SA_Gas_Inquiries__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SA Gas Inquiries</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
     <validationRules>
         <fullName>User_must_add_Broker_information</fullName>
         <active>true</active>
