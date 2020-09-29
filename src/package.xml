@@ -30,6 +30,7 @@
     </types>
     <types>
         <members>Contract_Variation_Record_Page</members>
+        <members>Opportunity_Record_Page</members>
         <name>FlexiPage</name>
     </types>
     <types>
@@ -43,6 +44,7 @@
         <members>Contract-Contract Layout</members>
         <members>Contract_Variation__c-Contract Variation Layout</members>
         <members>Lead-Lead Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
         <name>Layout</name>
     </types>
     <types>
