@@ -40,6 +40,7 @@
         <name>Group</name>
     </types>
     <types>
+        <members>Contract-Contract Layout</members>
         <members>Contract_Variation__c-Contract Variation Layout</members>
         <members>Lead-Lead Layout</members>
         <name>Layout</name>
