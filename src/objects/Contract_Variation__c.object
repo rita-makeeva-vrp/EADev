@@ -216,10 +216,10 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
-        <fullName>Terms_Conditions__c</fullName>
+        <fullName>Description__c</fullName>
         <description>Make changes to the contract.</description>
         <externalId>false</externalId>
-        <label>Terms &amp; Conditions</label>
+        <label>Description</label>
         <length>33000</length>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -236,5 +236,19 @@
     <pluralLabel>Contract Variations</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Add_additional_info_if_added_Appr_Manag</fullName>
+        <active>true</active>
+        <description>User must add Description if added Approval Manager</description>
+        <errorConditionFormula>AND(
+ NOT(
+  ISBLANK( Approving_Manager__c )
+ ),
+ OR(
+  ISBLANK( Description__c )
+ )
+)</errorConditionFormula>
+        <errorMessage>Please enter the Description before adding the Approval Manager</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
