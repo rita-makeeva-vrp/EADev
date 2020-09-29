@@ -77,7 +77,9 @@
         <name>SharingOwnerRule</name>
     </types>
     <types>
+        <members>Contract_Variation__c.Add_additional_info_if_added_Appr_Manag</members>
         <members>Lead.User_must_add_Broker_information</members>
+        <members>Project_Variation__c.Add_additional_info_if_added_Appr_Manag</members>
         <name>ValidationRule</name>
     </types>
     <version>48.0</version>

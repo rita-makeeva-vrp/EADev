@@ -8,7 +8,7 @@
     <approvalPageFields>
         <field>Name</field>
         <field>Approving_Manager__c</field>
-        <field>Terms_Conditions__c</field>
+        <field>Description__c</field>
     </approvalPageFields>
     <approvalStep>
         <allowDelegate>false</allowDelegate>
@@ -30,7 +30,7 @@
             <value>Draft</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Contract_Variation__c.Terms_Conditions__c</field>
+            <field>Contract_Variation__c.Description__c</field>
             <operation>notEqual</operation>
         </criteriaItems>
     </entryCriteria>
