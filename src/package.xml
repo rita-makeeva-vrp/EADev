@@ -21,6 +21,7 @@
         <members>Lead.Broker_s_Lead__c</members>
         <members>Lead.Exoteric_Work__c</members>
         <members>Lead.SA_Gas_Inquiries__c</members>
+        <members>Project_Variation__c.Approval_Status__c</members>
         <name>CustomField</name>
     </types>
     <types>
